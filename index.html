@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main2.css" />
+    <title>midterm</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.2/vue-router.min.js"></script>
+  </head>
+
+  <body>
+    <main>
+        <div id="app" class="container-fluid">
+        <div id="logopart"><a href="index.html#/home">
+            <img src="images/logo_c.svg"  alt="logo">
+          </a>
+          <p>Find YourSelf At Home!</p>
+        </div>
+          
+          <div id="routerNav">
+                  <li>
+                      <a tag="button" class="btn btn-light" href="home.html">Home</a>
+                      <a tag="button" class="btn btn-light" href="spots.html">Scenic Spots</a>
+                      <router-link to="/signup" tag="button" class="btn btn-light">Sign Up</router-link> 
+                  </li>
+           
+          </div>
+
+        <transition name="fadein" mode="out-in">
+          <router-view></router-view>
+        </transition>
+    <div id="videopart">
+        <video width="320" height="240" controls>
+        <source src="video/midterm_video.mp4" type="video/mp4">
+        <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg">
+        </video>
+    
+        <h2>Tourism</h2>  
+        <p>This ministry works closely with the tourism sector to help stimulate economic growth    
+                and investment and create an environment that allows Ontario to compete successfully in the rapidly  
+                changing world of travel and leisure. Among our activities to strengthen Ontario as an 
+                internationally-recognized tourist destination:</p>  
+
+            <img src="images/video1.jpg" alt=""> 
+        <ul>    
+                <li>1. We market Ontario as a tourist destination.</li>
+    
+                <li>2. We work with industry and organizations to support the maintenance and growth of the tourism's economic contribution.</li>
+                
+                <li>3. We undertake vital market research in the areas of marketing,product development, and 
+                    investment to aid business decisions by both governments and industry.</li>
+                                
+                <li>4. We encourage private sector investment and new product development to expand Ontario's 
+                    tourism sector and promote egional tourism economic development.</li>
+                                
+                <li>5. We support and facilitate the development of new experiences and destinations.</li>
+                                
+                <li>6. We invest in Ontario's tourism agencies.</li>
+                </ul>
+        </div>
+
+        <div id="footerArea">
+          <div class="container" id="footerInfo">
+            <div class="row">
+              <div class="col">
+                <p>@CopyRight 2020 The Ontario Tourism Company, Inc</p>
+              </div>
+
+              <div class="col">
+                <ul id="socialIcon" class="float-right">
+                  Follow us on social media.
+                  <li><img src="images/twitter-circular-button.svg" /></li>
+                  <li><img src="images/facebook-circular-logo.svg" /></li>
+                  <li><img src="images/google-plus-circular-button.svg" /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

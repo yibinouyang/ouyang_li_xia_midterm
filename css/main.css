@@ -1,0 +1,145 @@
+body {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+body .hidden {
+  display: none;
+}
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 13px;
+  list-style-type: none;
+}
+body #homeImg {
+  width: 500px;
+  background-color: #0e74c2;
+}
+body #homeImg img {
+  width: 340px;
+  height: auto;
+}
+body #homeP h2 {
+  color: #f0fbfe;
+}
+body #homeP p {
+  font-size: 20px;
+  color: #e1eded;
+  margin-left: 160px;
+  border: 2px solid #dcaa07;
+  width: 100px;
+  margin-top: 10px;
+}
+body #hometext {
+  width: 500px;
+  height: 200px;
+  border: 2px solid #fae671;
+  margin-top: -80px;
+}
+body #hometext p {
+  font-size: 16px;
+  color: darkslategrey;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+body #logopart {
+  width: 500px;
+  height: 100px;
+  display: inline-block;
+  border-bottom: 3px solid skyblue;
+}
+body #logopart img {
+  width: 100px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+body #logopart p {
+  font-size: 20px;
+  color: burlywood;
+  display: inline-block;
+  margin-left: 30px;
+}
+body #routerNav {
+  width: 450px;
+  height: 80px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: white;
+  margin-left: 0px;
+}
+body #routerNav li {
+  margin-left: 0px;
+}
+body #routerNav li a {
+  font-size: 16px;
+  color: #3292cd;
+  margin-left: 30px;
+}
+body #routerNav li button {
+  font-size: 16px;
+  color: #3292cd;
+  margin-left: 30px;
+}
+body #videopart {
+  width: 450px;
+  text-align: center;
+  margin: 0 px;
+}
+body #videopart video {
+  width: 450px;
+  height: auto;
+}
+body #videopart h2 {
+  width: 450px;
+  height: 50px;
+  text-align: center;
+  margin-top: 30px;
+  color: #2c43a0;
+}
+body #videopart ul {
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
+body #videopart ul li {
+  font-size: 16px;
+  color: #003082;
+  margin-top: 20px;
+}
+body #videopart img {
+  width: 470px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+body #videopart p {
+  font-size: 16px;
+  color: #003082;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body .hidden {
+    display: none;
+  }
+  body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 13px;
+    list-style-type: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

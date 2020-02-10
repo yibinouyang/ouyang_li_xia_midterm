@@ -1,0 +1,153 @@
+body{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    .hidden{
+        display: none;
+    }
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+        font-size: 13px;
+        list-style-type: none;
+    }
+    #homeImg{
+       
+        width: 500px;
+        background-color: rgb(14, 116, 194);
+        img{
+            width: 340px;
+            height: auto;
+        }
+    }
+    #homeP{
+        h2{
+            color: rgb(240, 251, 254);
+        }
+        p{
+            font-size: 20px;
+            color: rgb(225, 237, 237);
+            margin-left: 160px;
+            border: 2px solid rgb(220, 170, 7);
+            width: 100px;
+            margin-top: 10px;
+        }
+    }
+    #hometext{
+        width: 500px;
+        height: 200px;
+        border: 2px solid rgb(250, 230, 113);
+        margin-top: -80px;
+        p{
+            font-size: 16px;
+            color: darkslategrey;
+            margin-top: 10px;
+            margin-left: 6px;
+        }
+    }
+    #logopart{
+        width: 500px;
+        height: 100px;
+        display: inline-block;
+        border-bottom:3px solid skyblue ;
+        img{
+            width: 100px;
+            display: inline-block;
+            margin: 0 auto;
+            margin-left: 0px;
+
+        }
+        p{
+            font-size: 20px;
+            color: burlywood;
+            display: inline-block;
+            margin-left: 30px;
+        }
+    }
+
+    #routerNav{
+        width: 450px;
+        height: 80px;
+        margin-top: 30px;
+        text-align: center;
+        background-color: white;
+            margin-left: 0px ;
+            li{
+            
+                margin-left: 0px;
+                a{
+                    font-size: 16px;
+                    color: rgb(50, 146, 205);
+                    margin-left: 30px;
+                }
+                button{
+                    font-size: 16px;
+                    color: rgb(50, 146, 205);
+                    margin-left: 30px;
+                }
+        }
+    }
+    #videopart{
+        width: 450px;
+        text-align: center;
+        margin: 0 px;
+        video{
+            width: 450px;
+            height: auto;
+        }
+        h2{
+            width: 450px;
+            height: 50px;
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(44, 67, 160);
+        
+        }
+        ul{
+            width: 450px;
+            text-align: center;
+            margin:0 auto;
+            li{
+                font-size: 16px;
+                color: rgb(0, 48, 130);
+                margin-top: 20px;
+            }
+        }
+        img{
+            width: 470px;
+            height: auto;
+            text-align: center;
+            margin:0 auto;
+            margin-top: 20px;
+        }
+        p{
+            font-size: 16px;
+            color: rgb(0, 48, 130);
+            margin-top: 20px;
+            text-align: left;
+            margin-left: 10px;
+
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 750px){
+    body{
+        width: 1080px;
+        text-align: center;
+        margin: 0 auto;
+        .hidden{
+            display: none;
+        }
+        *{
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 13px;
+            list-style-type: none;
+        }
+    }
+}
