@@ -5,16 +5,16 @@
     <div class="row">
     <div class="col">
 
-        <img src="images/banner.jpg" style="width:450px"></div><br>
+        <img src="images/mesum.jpg" style="width:450px"></div><br>
 <div class="col"> 
         <form action="admin/signned_up_page.php"  method="post">
         <h2 style="color:skyblue">Let’s Start From Sign Up!</h2>
     <fieldset style="width: 300px;"><br>        
-       <label>First Name:</label>
-         <input v-model="input.firstname" type="text" name="firstname"  required class="form-control">
+      <label>First Name:</label>
+      <input v-model="input.firstname" type="text" name="firstname"  required class="form-control">
 
-         <label>Last Name:</label>
-         <input v-model="input.lastname" type="text" name="lastname" required class="form-control">
+        <label>Last Name:</label>
+        <input v-model="input.lastname" type="text" name="lastname" required class="form-control">
 
          <label>Email:</label>
          <input v-model="input.email" type="email" name="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" > 
