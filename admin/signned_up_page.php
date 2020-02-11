@@ -8,13 +8,12 @@ $lastname = $_POST['lastname'];
 $email = $_POST['email'];
 $country = $_POST['country'];
 
-print_r($_POST);
 
 session_start();
 
 try{
 	sign_up($firstname,$lastname,$email,$country);
-	echo '<br>whelcom join us!.<br>';
+	echo ' Thanks for your sign up ! Enjoy the Ontario Summer ! </br> time：'.date('Y-m-d H:i:s');
 	
 }catch(Exception $e){
 	echo $e -> getMessage();
