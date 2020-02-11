@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Feb 10, 2020 at 07:06 PM
+-- Generation Time: Feb 11, 2020 at 06:00 AM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.8
 
@@ -62,7 +62,9 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`user_id`, `first_name`, `last_name`, `country`, `email`, `join_date`, `last_update_date`) VALUES
-(1, 'ouyang', 'yibin', 'China', 'cyrene2717@outlook.com', '2020-02-10 06:52:00', '2020-02-10');
+(1, 'ouyang', 'yibin', 'China', 'cyrene2717@outlook.com', '2020-02-10 06:52:00', '2020-02-10'),
+(2, 'ouyang', 'yi', 'china', 'cyreneeeeee@gmail.com', '2020-02-11 07:36:33', ''),
+(3, '11', 'yibin', 'china', 'yibin@outlook.com', '2020-02-11 07:45:47', '');
 
 -- --------------------------------------------------------
 
@@ -118,7 +120,7 @@ ALTER TABLE `tbl_test`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `tbl_video`

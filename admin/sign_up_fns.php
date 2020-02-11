@@ -13,7 +13,7 @@
 	
    if($result->rowCount() > 0){
    	  
-   	throw new Exception("You already Sign Up".") ;die;}
+   	throw new Exception("That email address is taken---.") ;die;}
    
   //  	 $sql1 = "UPDATE tbl_users SET first_name=:firstname,last_name=:lastname,country=:country WHERE email=:email";
 	 // $dbh->exec($sql1);
